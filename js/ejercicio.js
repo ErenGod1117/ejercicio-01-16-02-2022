@@ -23,8 +23,8 @@ const mostrarCards = (datos) => {
     datos.forEach((item) => {
         Mcards += `<div class="col-6 mt-3 d-flex justify-content-center">
             <div class="card">
-                <img  height="100px"  style="border-radius: 10px;" src="./image/${1}.PNG">
                 <h6 class=" mt-3 text-center">Mi nombre es: ${item['name']}</h6>
+                <img  height="100px"  style="border-radius: 10px;" src="./image/${1}.PNG">
                 <p class="text-center">Mi Correo electronico es: ${item['email']}</p>
                 <p class="text-center">Vivo en: ${item['address']['street']}</p>
             </div>
